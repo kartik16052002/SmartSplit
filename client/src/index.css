@@ -1,0 +1,161 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 100%;
+    min-height: 100%;
+    /* overflow: auto; */
+}
+
+/* Login Page */
+
+.form-banner{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formContainer{
+    width: 20vw;
+    min-width: 300px;
+    height: fit-content ;
+    /* display: flex; */
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0, 0.4);
+    box-shadow: grey 0px 0px 0px 2px inset, rgb(0, 0, 0) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px,rgb(0, 0, 0) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(0, 0, 0) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(0, 0, 0) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+    
+}
+
+
+.formContainer form{
+    margin: 5px;
+    min-height: 50vh;
+}
+
+.formContainer form h3{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.form-bottom{
+    color: white;
+
+}
+
+.form-label{
+    color: grey;
+}
+
+.formContainer .form-control{
+    background-color: transparent;
+    color: rgb(195, 193, 193) !important;
+}
+
+.form-control:focus {
+    background-color: transparent;
+    color: rgb(211, 211, 211);
+}
+
+.form-control:active{
+    background-color: transparent;
+    color: gray;
+}
+
+
+.radio-container{
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+/* Navbar */
+
+.navbar{
+    background-color: black !important;
+    color: white !important;
+  }
+  
+  .navbar-brand, .nav-link{
+    color: white !important;
+}
+
+.nav-item{
+    /* justify-content: center;
+     */
+    
+}
+
+/* Sidebar */
+
+.sidebar{
+    background-color: black ;
+    height: 92.25vh;
+}
+.sidebar h3{
+    color: rgb(126, 118, 118);
+}
+
+.list-item{
+    background-color: transparent;
+    color: rgb(126, 118, 118);
+    width: 90%;
+    border-color: white!important;
+}
+
+.link-no-style {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+
+}
+
+.menu{
+    padding-left: 0 !important;
+}
+
+.link-no-style:hover{
+    color: white;
+    transition: linear
+}
+
+.active{
+    background-color: rgb(126, 118, 118) !important ;
+    color: black !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
+  
+
+/* DashBoard */
+
+
+.member-table th{
+    width: 50%;
+}
+
+.home-table{
+    margin: 10px ;
+}
+
+.home-table th{
+    width: 25%;
+    /* padding: 10px; */
+}
+
+.clipboard-img{
+    height: 15px;
+    width: 15px;
+    
+}
+
+.clipboard-img:hover{
+    cursor: pointer;
+}
+
